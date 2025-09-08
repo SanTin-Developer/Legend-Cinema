@@ -15,23 +15,23 @@ export default function MenuDateSlider() {
     <>
       <Swiper
         slidesPerView={1}
-        spaceBetween={10}
+        spaceBetween={20}
         breakpoints={{
           640: {
             slidesPerView: 2,
-            spaceBetween: 20,
+            spaceBetween: 10,
           },
           768: {
             slidesPerView: 4,
-            spaceBetween: 40,
+            spaceBetween: 30,
           },
           1024: {
             slidesPerView: 5,
-            spaceBetween: 50,
+            spaceBetween: 40,
           },
         }}
         modules={[Pagination]}
-        className="mySwiper  max-w-[1040px] h-24 gap-1 mt-8"
+        className="mySwiper  max-w-[990px] h-24 gap-1 mt-8 "
       >
         <SwiperSlide className="w-[40px] h-[20px] rounded-xl flex text-center justify-center m-auto content-center border-[2px] border-red-700 bg-black text-white">
           <div>

@@ -21,7 +21,7 @@ const Contact = () => {
           />
         </div>
       </div>
-      <span className="w-[140vh]  rounded-xl flex m-auto brightness-100 justify-center mt-[-68vh]">
+      <span className="w-[130vh]  rounded-xl flex m-auto brightness-100 justify-center mt-[-68vh]">
         <img
           src="https://www.legend.com.kh/contact-hero.jpg"
           alt="About Banner "
@@ -29,29 +29,25 @@ const Contact = () => {
         />
       </span>
       {/* Background Web page */}
-      <div className="flex -scale-z-50 items-center h-[80vh] justify-center stroke-1 saturate-50   bg-black sticky  bg-fixed ">
-        <div className="absolute inset-60 bg-[radial-gradient(circle_at_center,_#ff0000,_#000000)] h-[80%] blur-[190px]">
+      <div className="flex -scale-z-50 items-center h-[100vh] justify-center stroke-1 saturate-50   bg-black sticky  bg-fixed ">
+        <div className="absolute inset-60 bg-[radial-gradient(circle_at_center,_#ff0000,_#000000)] h-[50%] blur-[190px]">
           <div className=" h-[100%] bg-black/50 z-20 backdrop:blur-sm"></div>
         </div>
       </div>
+      <span className="gap-2 ml-72 absolute top-[86vh]">
+        <Link to="/" className=" text-gray-300 text-[15px] hover:text-gray-50">
+          Home
+        </Link>
+        <Link className="text-white  ">/ Contact Us</Link>
+      </span>
 
       {/* Boddy of About Page */}
-      <nav className="absolute top-[90vh] mt-8 px-[32vh] py-2 ">
-        <span className="gap-2">
-          <Link
-            to="/"
-            className=" text-gray-300 text-[15px] hover:text-gray-50"
-          >
-            Home
-          </Link>
-          <Link className="text-white  ml-2">/ Contact Us</Link>
-        </span>
-
+      <nav className="absolute top-[80vh] w-full  mt-20 flex justify-center ">
         {/* Content for about us */}
         <div>
-          <h2 className="text-white mt-9 text-3xl font-bold">Contact Info</h2>
-          <div className="grid grid-cols-2 w-[1040px]">
-            <div className="w-[95%] bg-black/20 rounded-2xl h-[55vh] border-[1px]  border-gray-900">
+          <h2 className="text-white mt-9 text-3xl font-bold ">Contact Info</h2>
+          <div className="grid grid-cols-2 w-[990px]">
+            <div className="w-[90%] bg-black/20 rounded-2xl h-[55vh] mt-9 border-[1px]  border-gray-900">
               <header className="w-full bg-gray-400/70 h-[9vh] font-bold text-2xl px-4 rounded-t-2xl text-white m-auto flex items-center">
                 Hotline
               </header>
@@ -71,7 +67,7 @@ const Contact = () => {
               </nav>
             </div>
             {/* culom2 */}
-            <div className="w-[95%] bg-black/20 rounded-2xl h-[55vh] border-[1px]  border-gray-900">
+            <div className="w-[90%] bg-black/20 mt-10 rounded-2xl h-[55vh] border-[1px]  border-gray-900">
               <header className="w-full bg-gray-400/70 h-[9vh] font-bold text-2xl px-4 rounded-t-2xl text-white m-auto flex items-center">
                 Advertising & Partnership
               </header>
@@ -90,7 +86,7 @@ const Contact = () => {
           </div>
         </div>
       </nav>
-      <footer>
+      <footer className="mt-[-50px]">
         <Footer />
       </footer>
     </>

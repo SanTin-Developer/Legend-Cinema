@@ -83,8 +83,8 @@ export default function HomeFooterSlide({ slides = DEFAULT_SLIDES }) {
   };
 
   return (
-    <section className="relative w-[1040px] m-auto mt-28 top-0">
-      <h2 className="text-white text-4xl font-extrabold ">What's new?</h2>
+    <section className="relative w-[990px] m-auto mt-28 top-0">
+      <h2 className="text-white text-3xl font-extrabold ">What's new?</h2>
       <Swiper
         // Keep a ref so we can pause/resume on hover
         ref={swiperRef}

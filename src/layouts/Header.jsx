@@ -48,7 +48,7 @@ function Header() {
           <div className="flex m-0 items-center ">
             {/* Logo */}
             <Link to={"/"}>
-              <div className="w-52 flex ml-[-87vh] justify-center h-24 p-1">
+              <div className="w-40 flex ml-[-70vh] justify-center h-24 p-1">
                 <img
                   src={Logo}
                   alt="legendCinema"
@@ -58,7 +58,7 @@ function Header() {
             </Link>
 
             {/* Buttom */}
-            <div className="flex gap-2 ml-[-60vh]">
+            <div className="flex gap-2 ml-[-50vh]">
               {/* Buttom Ticket */}
               <Link to="/ticket">
                 <div className="flex gap-2  bg-white/10 hover:border-gray-50 w-28 h-10 border-1 decoration-1 border-gray-400 rounded-3xl justify-center items-center cursor-default">
@@ -83,7 +83,7 @@ function Header() {
         <div className=" h-[1px]  inset-0 bg-gradient-to-r from-black via-gray-400 to-black rounded-lg z-10"></div>
 
         {/* Menu */}
-        <div className="flex px-60 h-12 items-center w-full justify-between cursor-default bg-black/10 backdrop-blur-2xl ">
+        <div className="flex px-64 h-12 items-center w-full justify-between cursor-default bg-black/10 backdrop-blur-2xl ">
           <Menu />
           {/* Location of cinema */}
           <span className="flex m-0 items-center ">
@@ -92,7 +92,7 @@ function Header() {
         </div>
 
         {/* Change language */}
-        <span className="right-62 top-8 absolute">
+        <span className="right-[17rem] top-8 absolute">
           <LanguageSelector />
         </span>
       </div>

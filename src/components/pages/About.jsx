@@ -16,7 +16,7 @@ const About = () => {
           />
         </div>
       </div>
-      <span className="w-[140vh]  rounded-xl flex m-auto brightness-100 justify-center mt-[-68vh]">
+      <span className="w-[130vh]  rounded-xl flex m-auto brightness-100 justify-center mt-[-68vh]">
         <img
           src="https://coolbeans.sgp1.digitaloceanspaces.com/legend-cinema-prod/33983385-b6fd-4413-a906-98491d180531.jpeg"
           alt="About Banner "
@@ -24,14 +24,14 @@ const About = () => {
         />
       </span>
       {/* Background Web page */}
-      <div className="flex -scale-z-50 items-center h-[60vh] justify-center stroke-1 saturate-50   bg-black sticky  bg-fixed ">
-        <div className="absolute inset-60 bg-[radial-gradient(circle_at_center,_#ff0000,_#000000)] h-[80%] blur-[190px]">
+      <div className="flex -scale-z-50 items-center h-[70vh] justify-center stroke-1 saturate-50   bg-black sticky  bg-fixed ">
+        <div className="absolute inset-60 bg-[radial-gradient(circle_at_center,_#ff0000,_#000000)] h-[50%] blur-[190px]">
           <div className=" h-[100%] bg-black/50 z-20 backdrop:blur-sm"></div>
         </div>
       </div>
 
       {/* Boddy of About Page */}
-      <nav className="absolute top-[90vh] mt-8 px-[32vh] py-2 ">
+      <nav className="absolute top-[80vh] mt-8 px-[39vh] py-2 ">
         <span className="gap-2">
           <Link
             to="/"
@@ -47,8 +47,10 @@ const About = () => {
           <h2 className="text-white mt-9 text-3xl font-bold">
             About Legend Cinema
           </h2>
-          <p className="text-white mt-9">About Legend Cinema Cambodia.</p>
-          <p className="text-white mt-1">
+          <p className="text-white mt-9 text-[13px]">
+            About Legend Cinema Cambodia.
+          </p>
+          <p className="text-white text-[13px] mt-1">
             Legend Cinema is the no.1 and the first International standard
             Cinema in Cambodia, created and operated by khmer since 2011. Our
             rapid growth and expansion from 1 to 13 cinema locations in the past
@@ -65,9 +67,9 @@ const About = () => {
           </p>
         </div>
       </nav>
-      <Footer>
+      <footer className="mt-[-50px]">
         <Footer />
-      </Footer>
+      </footer>
     </>
   );
 };

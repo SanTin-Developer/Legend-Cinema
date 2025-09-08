@@ -1,192 +1,186 @@
 import React from "react";
 
-const Today = () => {
+const MovieComing = () => {
   return (
     <>
-      <div className="max-w-[1050px] m-auto relative top-20 h-auto flex justify-center  ">
-        <div className="grid grid-cols-4 gap-6">
-          <div className="w-[30vh] h-[55vh] ">
+      <div className="max-w-[1050px] m-auto relative top-20 h-auto ">
+        <div className="grid grid-cols-4">
+          <div className="w-[33vh] h-[60vh] ">
             <img
-              src="https://tickets.legend.com.kh/CDN/media/entity/get/Movies/HO00001996"
+              src="https://tickets.legend.com.kh/CDN/media/entity/get/FilmPosterGraphic/HO00002000"
               alt="Movie1"
               className="w-[100%] h-[80%] rounded-xl"
             />
             <span className="relative top-2 ">
               <ul className="px-2">
-                <li className="flex gap-1.5 text-[14px] text-gray-500 ">
-                  02 Sep 2025
-                  <img
-                    src="https://tickets.legend.com.kh/CDN/media/entity/get/RatingIconGraphic/R18"
-                    alt="Ticket"
-                    className="w-10 h-4"
-                  />
-                </li>
-                <li className="text-white text-[14px] mt-1">
-                  The Shadow's Edge
-                </li>
-              </ul>
-            </span>
-          </div>
-
-          <div className="w-[30vh] h-[55vh] ">
-            <img
-              src="https://tickets.legend.com.kh/CDN/media/entity/get/Movies/HO00001999"
-              alt="Movie1"
-              className="w-[100%] h-[80%] rounded-xl"
-            />
-            <span className="relative top-2 ">
-              <ul className="px-2">
-                <li className="flex gap-1.5 text-[14px] text-gray-500 ">
-                  29 Aug 2025
+                <li className="flex gap-1.5 text-gray-500 ">
+                  10 Sep 2025
                   <img
                     src="https://tickets.legend.com.kh/CDN/media/entity/get/RatingIconGraphic/NC15"
                     alt="Ticket"
-                    className="w-10 h-4"
+                    className="w-12 h-5"
                   />
                 </li>
-                <li className="text-white text-[14px] mt-1">Tenung</li>
+                <li className="text-white text-[17px] mt-1">Gundik</li>
               </ul>
             </span>
           </div>
 
-          <div className="w-[30vh] h-[55vh] ">
+          <div className="w-[33vh] h-[60vh] ">
             <img
-              src="https://tickets.legend.com.kh/CDN/media/entity/get/Movies/HO00001951"
+              src="https://tickets.legend.com.kh/CDN/media/entity/get/FilmPosterGraphic/HO00002013"
               alt="Movie1"
               className="w-[100%] h-[80%] rounded-xl"
             />
             <span className="relative top-2 ">
               <ul className="px-2">
-                <li className="flex gap-1.5 text-[14px] text-gray-500 ">
-                  29 Aug 2025
+                <li className="flex gap-1.5 text-gray-500 ">
+                  10 Sep 2025
                   <img
                     src="https://tickets.legend.com.kh/CDN/media/entity/get/RatingIconGraphic/G"
                     alt="Ticket"
-                    className="w-10 h-4"
+                    className="w-12 h-5"
                   />
                 </li>
-                <li className="text-white text-[14px] mt-1">
-                  Ejen Ali The Movie2
-                </li>
+                <li className="text-white text-[17px] mt-1">Pretty Crazy</li>
               </ul>
             </span>
           </div>
 
-          <div className="w-[30vh] h-[55vh] ">
+          <div className="w-[33vh] h-[60vh] ">
             <img
-              src="https://tickets.legend.com.kh/CDN/media/entity/get/Movies/HO00002018"
+              src="https://tickets.legend.com.kh/CDN/media/entity/get/FilmPosterGraphic/HO00001973"
               alt="Movie1"
               className="w-[100%] h-[80%] rounded-xl"
             />
             <span className="relative top-2 ">
               <ul className="px-2">
-                <li className="flex gap-1.5 text-[14px] text-gray-500 ">
-                  29 Aug 2025
+                <li className="flex gap-1.5 text-gray-500 ">
+                  11 Sep 2025
                   <img
                     src="https://tickets.legend.com.kh/CDN/media/entity/get/RatingIconGraphic/R18"
                     alt="Ticket"
-                    className="w-10 h-4"
+                    className="w-12 h-5"
                   />
                 </li>
-                <li className="text-white text-[14px] mt-1">
-                  The Conjuring 3 (Re-release)
+                <li className="text-white text-[17px] mt-1">The long Walk</li>
+              </ul>
+            </span>
+          </div>
+
+          <div className="w-[33vh] h-[60vh] ">
+            <img
+              src="https://tickets.legend.com.kh/CDN/media/entity/get/FilmPosterGraphic/HO00002009"
+              alt="Movie1"
+              className="w-[100%] h-[80%] rounded-xl"
+            />
+            <span className="relative top-2 ">
+              <ul className="px-2">
+                <li className="flex gap-1.5 text-gray-500 ">
+                  11 Sep 2025
+                  <img
+                    src="https://tickets.legend.com.kh/CDN/media/entity/get/RatingIconGraphic/R18"
+                    alt="Ticket"
+                    className="w-12 h-5"
+                  />
                 </li>
+                <li className="text-white text-[17px] mt-1">The Ladies</li>
               </ul>
             </span>
           </div>
 
           {/* Row 2 */}
 
-          <div className="w-[30vh] h-[55vh] ">
+          <div className="w-[33vh] h-[60vh] ">
             <img
-              src="https://tickets.legend.com.kh/CDN/media/entity/get/Movies/HO00002007"
+              src="https://tickets.legend.com.kh/CDN/media/entity/get/FilmPosterGraphic/HO00002002"
               alt="Movie1"
               className="w-[100%] h-[80%] rounded-xl"
             />
             <span className="relative top-2 ">
               <ul className="px-2">
-                <li className="flex gap-1.5 text-[14px] text-gray-500 ">
-                  28 Aug 2025
+                <li className="flex gap-1.5 text-gray-500 ">
+                  12 Sep 2025
                   <img
-                    src="https://tickets.legend.com.kh/CDN/media/entity/get/RatingIconGraphic/NC15"
+                    src="https://tickets.legend.com.kh/CDN/media/entity/get/RatingIconGraphic/G"
                     alt="Ticket"
-                    className="w-10 h-4"
+                    className="w-12 h-5"
                   />
                 </li>
-                <li className="text-white text-[14px] mt-1">The Magic</li>
-              </ul>
-            </span>
-          </div>
-
-          <div className="w-[30vh] h-[55vh] ">
-            <img
-              src="https://tickets.legend.com.kh/CDN/media/entity/get/Movies/HO00001910"
-              alt="Movie1"
-              className="w-[100%] h-[80%] rounded-xl"
-            />
-            <span className="relative top-2 ">
-              <ul className="px-2">
-                <li className="flex gap-1.5 text-[14px] text-gray-500 ">
-                  28 Aug 2025
-                  <img
-                    src="https://tickets.legend.com.kh/CDN/media/entity/get/RatingIconGraphic/R18"
-                    alt="Ticket"
-                    className="w-10 h-4"
-                  />
-                </li>
-                <li className="text-white text-[14px] mt-1">Caught Stealing</li>
-              </ul>
-            </span>
-          </div>
-
-          <div className="w-[30vh] h-[55vh] ">
-            <img
-              src="https://tickets.legend.com.kh/CDN/media/entity/get/Movies/HO00002004"
-              alt="Movie1"
-              className="w-[100%] h-[80%] rounded-xl"
-            />
-            <span className="relative top-2 ">
-              <ul className="px-2">
-                <li className="flex gap-1.5 text-[14px] text-gray-500 ">
-                  25 Aug 2025
-                  <img
-                    src="https://tickets.legend.com.kh/CDN/media/entity/get/RatingIconGraphic/NC15"
-                    alt="Ticket"
-                    className="w-10 h-4"
-                  />
-                </li>
-                <li className="text-white text-[14px] mt-1">
-                  Haunted Mountain: The Yellow Taboo
+                <li className="text-white text-[17px] mt-1">
+                  Doraemon the Movie: Nobita's Art World Tales
                 </li>
               </ul>
             </span>
           </div>
 
-          <div className="w-[30vh] h-[55vh] ">
+          <div className="w-[33vh] h-[60vh] ">
             <img
-              src="https://tickets.legend.com.kh/CDN/media/entity/get/Movies/HO00001954"
+              src="https://tickets.legend.com.kh/CDN/media/entity/get/FilmPosterGraphic/HO00002020"
               alt="Movie1"
               className="w-[100%] h-[80%] rounded-xl"
             />
             <span className="relative top-2 ">
               <ul className="px-2">
-                <li className="flex gap-1.5 text-[14px] text-gray-500 ">
-                  22 Aug 2025
+                <li className="flex gap-1.5 text-gray-500 ">
+                  12 Sep 2025
                   <img
                     src="https://tickets.legend.com.kh/CDN/media/entity/get/RatingIconGraphic/NC15"
                     alt="Ticket"
-                    className="w-10 h-4"
+                    className="w-12 h-5"
                   />
                 </li>
-                <li className="text-white text-[14px] mt-1">
-                  Bambi: The Reckoning
+                <li className="text-white text-[17px] mt-1">
+                  Kampung Jabang Mayit: Ritual Maut
                 </li>
+              </ul>
+            </span>
+          </div>
+
+          <div className="w-[33vh] h-[60vh] ">
+            <img
+              src="https://tickets.legend.com.kh/CDN/media/entity/get/FilmPosterGraphic/HO00002029"
+              alt="Movie1"
+              className="w-[100%] h-[80%] rounded-xl"
+            />
+            <span className="relative top-2 ">
+              <ul className="px-2">
+                <li className="flex gap-1.5 text-gray-500 ">
+                  15 Sep 2025
+                  <img
+                    src="https://tickets.legend.com.kh/CDN/media/entity/get/RatingIconGraphic/NC15"
+                    alt="Ticket"
+                    className="w-12 h-5"
+                  />
+                </li>
+                <li className="text-white text-[17px] mt-1">Muslihat</li>
+              </ul>
+            </span>
+          </div>
+
+          <div className="w-[33vh] h-[60vh] ">
+            <img
+              src="https://tickets.legend.com.kh/CDN/media/entity/get/FilmPosterGraphic/HO00002026"
+              alt="Movie1"
+              className="w-[100%] h-[80%] rounded-xl"
+            />
+            <span className="relative top-2 ">
+              <ul className="px-2">
+                <li className="flex gap-1.5 text-gray-500 ">
+                  22 Sep 2025
+                  <img
+                    src="https://tickets.legend.com.kh/CDN/media/entity/get/RatingIconGraphic/TBC"
+                    alt="Ticket"
+                    className="w-12 h-5"
+                  />
+                </li>
+                <li className="text-white text-[17px] mt-1">Ghost Game</li>
               </ul>
             </span>
           </div>
 
           {/* Row 3 */}
-          <div className="w-[30vh] h-[55vh] ">
+          <div className="w-[33vh] h-[60vh] ">
             <img
               src="https://tickets.legend.com.kh/CDN/media/entity/get/Movies/HO00001856"
               alt="Movie1"
@@ -194,20 +188,20 @@ const Today = () => {
             />
             <span className="relative top-2 ">
               <ul className="px-2">
-                <li className="flex gap-1.5 text-[14px] text-gray-500 ">
+                <li className="flex gap-1.5 text-gray-500 ">
                   26 Jun 2025
                   <img
                     src="https://tickets.legend.com.kh/CDN/media/entity/get/RatingIconGraphic/G"
                     alt="Ticket"
-                    className="w-10 h-4"
+                    className="w-12 h-5"
                   />
                 </li>
-                <li className="text-white text-[14px] mt-1">F1</li>
+                <li className="text-white text-[17px] mt-1">F1</li>
               </ul>
             </span>
           </div>
 
-          <div className="w-[30vh] h-[55vh] ">
+          <div className="w-[33vh] h-[60vh] ">
             <img
               src="https://tickets.legend.com.kh/CDN/media/entity/get/Movies/HO00001942"
               alt="Movie1"
@@ -215,22 +209,22 @@ const Today = () => {
             />
             <span className="relative top-2 ">
               <ul className="px-2">
-                <li className="flex gap-1.5 text-[14px] text-gray-500 ">
+                <li className="flex gap-1.5 text-gray-500 ">
                   03 Jul 2025
                   <img
                     src="https://tickets.legend.com.kh/CDN/media/entity/get/RatingIconGraphic/NC15"
                     alt="Ticket"
-                    className="w-10 h-4"
+                    className="w-12 h-5"
                   />
                 </li>
-                <li className="text-white text-[14px] mt-1">
+                <li className="text-white text-[17px] mt-1">
                   Jurassic World: Rebirth
                 </li>
               </ul>
             </span>
           </div>
 
-          <div className="w-[30vh] h-[55vh] ">
+          <div className="w-[33vh] h-[60vh] ">
             <img
               src="https://tickets.legend.com.kh/CDN/media/entity/get/Movies/HO00001868"
               alt="Movie1"
@@ -238,22 +232,22 @@ const Today = () => {
             />
             <span className="relative top-2 ">
               <ul className="px-2">
-                <li className="flex text-[14px] gap-1.5 text-gray-500 ">
+                <li className="flex gap-1.5 text-gray-500 ">
                   15 Aug 2025
                   <img
                     src="https://tickets.legend.com.kh/CDN/media/entity/get/RatingIconGraphic/NC15"
                     alt="Ticket"
-                    className="w-10 h-4"
+                    className="w-12 h-5"
                   />
                 </li>
-                <li className="text-white text-[14px] mt-1">
+                <li className="text-white text-[17px] mt-1">
                   Demon Slayer -Kimetsu no Yaiba: Infinity Castle
                 </li>
               </ul>
             </span>
           </div>
 
-          <div className="w-[30vh] h-[55vh] ">
+          <div className="w-[33vh] h-[60vh] ">
             <img
               src="https://tickets.legend.com.kh/CDN/media/entity/get/Movies/HO00001964"
               alt="Movie1"
@@ -261,15 +255,15 @@ const Today = () => {
             />
             <span className="relative top-2 ">
               <ul className="px-2">
-                <li className="flex gap-1.5 text-[14px] text-gray-500 ">
+                <li className="flex gap-1.5 text-gray-500 ">
                   01 Aug 2025
                   <img
                     src="https://tickets.legend.com.kh/CDN/media/entity/get/RatingIconGraphic/G"
                     alt="Ticket"
-                    className="w-10 h-4"
+                    className="w-12 h-5"
                   />
                 </li>
-                <li className="text-white text-[14px] mt-1">The Bad Guys 2</li>
+                <li className="text-white text-[17px] mt-1">The Bad Guys 2</li>
               </ul>
             </span>
           </div>
@@ -279,4 +273,4 @@ const Today = () => {
   );
 };
 
-export default Today;
+export default MovieComing;

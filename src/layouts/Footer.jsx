@@ -11,46 +11,50 @@ import { PiCopyrightBold } from "react-icons/pi";
 const Footer = () => {
   return (
     <>
-      <div className="max-w-full bg-black h-[80vh]  pt-30  ">
-        <div className="max-w-[1040px] gap-5  m-auto grid grid-cols-3">
+      <div className="max-w-full mt-10 bg-black h-[80vh]  pt-30  ">
+        <div className="max-w-[950px] gap-5  m-auto grid grid-cols-3">
           <div>
-            <h2 className="text-white text-[25px] cursor-default">Company</h2>
+            <h2 className="text-white font-bold text-[20px] cursor-default">
+              Company
+            </h2>
             <ul className="mt-5 px-1">
-              <li className="text-gray-300 hover:text-gray-100 cursor-pointer mt-2">
+              <li className="text-gray-400 hover:text-gray-100 cursor-pointer mt-2">
                 <Link to="/about">About Us</Link>
               </li>
-              <li className="text-gray-300 hover:text-gray-100 cursor-pointer mt-4">
+              <li className="text-gray-400 hover:text-gray-100 cursor-pointer mt-4">
                 <Link to="/contact">Contac Us</Link>
               </li>
-              <li className="text-gray-300 hover:text-gray-100 cursor-pointer mt-4">
+              <li className="text-gray-400 hover:text-gray-100 cursor-pointer mt-4">
                 <Link to="/cinemas">Cinemas</Link>
               </li>
             </ul>
           </div>
 
           <div>
-            <h2 className="text-white text-[25px] cursor-default">More</h2>
+            <h2 className="text-white text-[20px] font-bold cursor-default">
+              More
+            </h2>
             <ul className="mt-5 px-1">
-              <li className="text-gray-300 hover:text-gray-100 cursor-pointer mt-2">
+              <li className="text-gray-400 hover:text-gray-100 cursor-pointer mt-2">
                 <Link to="/offers">Promotions</Link>
               </li>
-              <li className="text-gray-300 hover:text-gray-100 cursor-pointer mt-4">
+              <li className="text-gray-400 hover:text-gray-100 cursor-pointer mt-4">
                 <Link to="/news-activity"> News & Activity</Link>
               </li>
-              <li className="text-gray-300 hover:text-gray-100 cursor-pointer mt-4">
+              <li className="text-gray-400 hover:text-gray-100 cursor-pointer mt-4">
                 <Link to="/ticket">My Ticket</Link>
               </li>
-              <li className="text-gray-300 hover:text-gray-100 cursor-pointer mt-4">
+              <li className="text-gray-400 hover:text-gray-100 cursor-pointer mt-4">
                 <Link to="/terms-conditions">Terms & Conditions</Link>
               </li>
-              <li className="text-gray-300 hover:text-gray-100 cursor-pointer mt-4">
+              <li className="text-gray-400 hover:text-gray-100 cursor-pointer mt-4">
                 <Link to="/privacy-policy">Privacy & Policy</Link>
               </li>
             </ul>
           </div>
           <div>
             <span>
-              <h2 className="text-white text-[25px] cursor-default">
+              <h2 className="text-white text-[20px] font-bold cursor-default">
                 Download Our App
               </h2>
               <ul className="mt-5 px-1 flex gap-3">
@@ -72,7 +76,7 @@ const Footer = () => {
             </span>
 
             <span>
-              <h2 className="text-white text-[25px] cursor-default  mt-8">
+              <h2 className="text-white text-[20px] font-bold cursor-default  mt-8">
                 Follow Our Social Media
               </h2>
               <ul className="mt-5 px-1 flex">
@@ -97,8 +101,10 @@ const Footer = () => {
         </div>
 
         {/* Bank Banner */}
-        <div className="max-w-[1040px] m-auto mt-2">
-          <h2 className="text-white text-2xl cursor-default">Payment</h2>
+        <div className="max-w-[950px] m-auto mt-2">
+          <h2 className="text-white text-xl font-bold cursor-default">
+            Payment
+          </h2>
           <div className="flex gap-24">
             <span>
               <img

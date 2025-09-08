@@ -17,11 +17,11 @@ const Cinemas = () => {
           <img
             src="https://coolbeans.sgp1.digitaloceanspaces.com/legend-cinema-prod/5840e6b4-8923-4eee-894d-f98581885ad4.jpeg"
             alt="Cinemas Banner"
-            className="bg-cover bg-fixed"
+            className="bg-cover bg-fixed backdrop:backdrop-blur-sm"
           />
         </div>
       </div>
-      <span className="w-[140vh] border-1 border-gray-700 rounded-xl flex m-auto brightness-100 justify-center mt-[-68vh]">
+      <span className="w-[130vh] rounded-xl flex m-auto brightness-100 justify-center mt-[-68vh]">
         <img
           src="https://coolbeans.sgp1.digitaloceanspaces.com/legend-cinema-prod/5840e6b4-8923-4eee-894d-f98581885ad4.jpeg"
           alt="Cinemas Banner"
@@ -35,7 +35,7 @@ const Cinemas = () => {
           <div className=" h-[100%] bg-black/50 z-20 backdrop:blur-sm"></div>
         </div>
       </div>
-      <div className="  w-[1050px] m-auto ml-[240px]  absolute top-[92vh]">
+      <div className="  w-[990px] m-auto ml-[280px]  absolute top-[92vh]">
         <h3 className="text-white ml-1  text-2xl font-semibold font:Poppins">
           Cinema:
         </h3>
@@ -45,20 +45,20 @@ const Cinemas = () => {
             placeholder="Search Location..."
             value={value}
             onChange={(e) => setValue(e.target.value)}
-            className="w-[1050px] bg-stone-900/80 border border-stone-700/50 rounded-xl px-6 py-3 pr-12 text-stone-200 placeholder:text-stone-500 focus:outline-none focus:ring-2 focus:ring-stone-600/50 focus:border-stone-600 transition-all duration-200 text-lg backdrop-blur-sm"
+            className="w-[970px] bg-stone-900/80 border border-stone-700/50 rounded-xl px-6 py-3 pr-12 text-stone-200 placeholder:text-stone-500 focus:outline-none focus:ring-2 focus:ring-stone-600/50 focus:border-stone-600 transition-all duration-200 text-lg backdrop-blur-sm"
           />
-          <IoMdSearch className="absolute right-4 top-1/2 -translate-y-1/2 h-5 w-5 text-stone-400" />
+          <IoMdSearch className="absolute right-10 top-1/2 -translate-y-1/2 h-5 w-5 text-stone-400" />
         </div>
 
         {/* Card of local */}
 
         {/* Card1 */}
-        <div className="grid grid-cols-3 mt-10 gap-3">
-          <div className="w-[44vh] h-[42vh] mt-5 bg-black/15 p-2 rounded-xl border-[0.5px] border-gray-700 cursor-pointer ">
+        <div className="grid grid-cols-3 mt-10 px-5">
+          <div className="w-[40vh] h-[41vh] mt-5 bg-black/15 p-2 rounded-xl border-[0.5px] border-gray-700 cursor-pointer ">
             <img
               src="https://tickets.legend.com.kh/CDN/media/entity/get/CinemaGallery/0000000013"
               alt="legend local"
-              className="w-[44vh] h-[30vh] rounded-2xl"
+              className="w-[44vh] h-[30vh] rounded-xl"
             />
             <h2 className="text-white font-sans font-light mt-2">
               Legend Cinema 271 Mega Mall{" "}
@@ -70,11 +70,11 @@ const Cinemas = () => {
           </div>
 
           {/* Card 2 */}
-          <div className="w-[44vh] h-[42vh] mt-5 bg-black/15 p-2 rounded-xl border-[0.5px] border-gray-700 cursor-pointer ">
+          <div className="w-[40vh] h-[41vh] mt-5 bg-black/15 p-2 rounded-xl border-[0.5px] border-gray-700 cursor-pointer ">
             <img
               src="https://tickets.legend.com.kh/CDN/media/entity/get/CinemaGallery/0000000012"
               alt="legend local"
-              className="w-[44vh] h-[30vh] rounded-2xl"
+              className="w-[44vh] h-[30vh] rounded-xl"
             />
             <h2 className="text-white font-sans font-light mt-2">
               Legend Cinema Sihanoukvile
@@ -85,11 +85,11 @@ const Cinemas = () => {
             </span>
           </div>
           {/* Card 3 */}
-          <div className="w-[44vh] h-[42vh] mt-5 bg-black/15 p-2 rounded-xl border-[0.5px] border-gray-700 cursor-pointer ">
+          <div className="w-[40vh] h-[41vh] mt-5 bg-black/15 p-2 rounded-xl border-[0.5px] border-gray-700 cursor-pointer ">
             <img
               src="https://tickets.legend.com.kh/CDN/media/entity/get/CinemaGallery/0000000014"
               alt="legend local"
-              className="w-[44vh] h-[30vh] rounded-2xl"
+              className="w-[44vh] h-[30vh] rounded-xl"
             />
             <h2 className="text-white font-sans font-light mt-2">
               Legend Eden Garden
@@ -100,11 +100,11 @@ const Cinemas = () => {
             </span>
           </div>
           {/* Card4 */}
-          <div className="w-[44vh] h-[42vh] mt-5 bg-black/15 p-2 rounded-xl border-[0.5px] border-gray-700 cursor-pointer ">
+          <div className="w-[40vh] h-[41vh] mt-5 bg-black/15 p-2 rounded-xl border-[0.5px] border-gray-700 cursor-pointer ">
             <img
               src="https://tickets.legend.com.kh/CDN/media/entity/get/CinemaGallery/0000000009"
               alt="Legend local"
-              className="w-[44vh] h-[30vh] rounded-2xl"
+              className="w-[44vh] h-[30vh] rounded-xl"
             />
             <h2 className="text-white font-sans font-light mt-2">
               Legend K Mall
@@ -116,11 +116,11 @@ const Cinemas = () => {
           </div>
 
           {/* Card 5 */}
-          <div className="w-[44vh] h-[42vh] mt-5 bg-black/15 p-2 rounded-xl border-[0.5px] border-gray-700 cursor-pointer ">
+          <div className="w-[40vh] h-[41vh] mt-5 bg-black/15 p-2 rounded-xl border-[0.5px] border-gray-700 cursor-pointer ">
             <img
               src="https://tickets.legend.com.kh/CDN/media/entity/get/CinemaGallery/0000000006"
               alt="Legend Local"
-              className="w-[44vh] h-[30vh] rounded-2xl"
+              className="w-[44vh] h-[30vh] rounded-xl"
             />
             <h2 className="text-white font-sans font-light mt-2">
               Legend Meanchey
@@ -131,11 +131,11 @@ const Cinemas = () => {
             </span>
           </div>
           {/* Card 6 */}
-          <div className="w-[44vh] h-[42vh] mt-5 bg-black/15 p-2 rounded-xl border-[0.5px] border-gray-700 cursor-pointer ">
+          <div className="w-[40vh] h-[41vh] mt-5 bg-black/15 p-2 rounded-xl border-[0.5px] border-gray-700 cursor-pointer ">
             <img
               src="https://tickets.legend.com.kh/CDN/media/entity/get/CinemaGallery/0000000008"
               alt="Legend Local"
-              className="w-[44vh] h-[30vh] rounded-2xl"
+              className="w-[44vh] h-[30vh] rounded-xl"
             />
             <h2 className="text-white font-sans font-light mt-2">
               Legend Midtown Mall
@@ -146,11 +146,11 @@ const Cinemas = () => {
             </span>
           </div>
           {/* Card 7 */}
-          <div className="w-[44vh] h-[42vh] mt-5 bg-black/15 p-2 rounded-xl border-[0.5px] border-gray-700 cursor-pointer ">
+          <div className="w-[40vh] h-[41vh] mt-5 bg-black/15 p-2 rounded-xl border-[0.5px] border-gray-700 cursor-pointer ">
             <img
               src="https://tickets.legend.com.kh/CDN/media/entity/get/CinemaGallery/0000000007"
               alt="Legend Local"
-              className="w-[44vh] h-[30vh] rounded-2xl"
+              className="w-[44vh] h-[30vh] rounded-xl"
             />
             <h2 className="text-white font-sans font-light mt-2">
               Legend Noro Mall
@@ -161,11 +161,11 @@ const Cinemas = () => {
             </span>
           </div>
           {/* Card 8 */}
-          <div className="w-[44vh] h-[42vh] mt-5 bg-black/15 p-2 rounded-xl border-[0.5px] border-gray-700 cursor-pointer ">
+          <div className="w-[40vh] h-[41vh] mt-5 bg-black/15 p-2 rounded-xl border-[0.5px] border-gray-700 cursor-pointer ">
             <img
               src="https://tickets.legend.com.kh/CDN/media/entity/get/CinemaGallery/0000000011"
               alt="Legend Local"
-              className="w-[44vh] h-[30vh] rounded-2xl"
+              className="w-[44vh] h-[30vh] rounded-xl"
             />
             <h2 className="text-white font-sans font-light mt-2">
               Legend Olympia
@@ -176,11 +176,11 @@ const Cinemas = () => {
             </span>
           </div>
           {/* Card 9 */}
-          <div className="w-[44vh] h-[42vh] mt-5 bg-black/15 p-2 rounded-xl border-[0.5px] border-gray-700 cursor-pointer ">
+          <div className="w-[40vh] h-[41vh] mt-5 bg-black/15 p-2 rounded-xl border-[0.5px] border-gray-700 cursor-pointer ">
             <img
               src="https://tickets.legend.com.kh/CDN/media/entity/get/CinemaGallery/0000000005"
               alt="Legend Local"
-              className="w-[44vh] h-[30vh] rounded-2xl"
+              className="w-[44vh] h-[30vh] rounded-xl"
             />
             <h2 className="text-white font-sans font-light mt-2">
               Legend Premium Exchange Square
@@ -191,11 +191,11 @@ const Cinemas = () => {
             </span>
           </div>
           {/* Card 10 */}
-          <div className="w-[44vh] h-[42vh] mt-5 bg-black/15 p-2 rounded-xl border-[0.5px] border-gray-700 cursor-pointer ">
+          <div className="w-[40vh] h-[41vh] mt-5 bg-black/15 p-2 rounded-xl border-[0.5px] border-gray-700 cursor-pointer ">
             <img
               src="https://tickets.legend.com.kh/CDN/media/entity/get/CinemaGallery/0000000010"
               alt="Legend Local"
-              className="w-[44vh] h-[30vh] rounded-2xl"
+              className="w-[44vh] h-[30vh] rounded-xl"
             />
             <h2 className="text-white font-sans font-light mt-2">
               Legend SenSok
@@ -206,11 +206,11 @@ const Cinemas = () => {
             </span>
           </div>
           {/* Card 11 */}
-          <div className="w-[44vh] h-[42vh] mt-5 bg-black/15 p-2 rounded-xl border-[0.5px] border-gray-700 cursor-pointer ">
+          <div className="w-[40vh] h-[41vh] mt-5 bg-black/15 p-2 rounded-xl border-[0.5px] border-gray-700 cursor-pointer ">
             <img
               src="https://tickets.legend.com.kh/CDN/media/entity/get/CinemaGallery/0000000001"
               alt="Legend Local"
-              className="w-[44vh] h-[30vh] rounded-2xl"
+              className="w-[44vh] h-[30vh] rounded-xl"
             />
             <h2 className="text-white font-sans font-light mt-2">
               Legend Siem Reap
@@ -221,11 +221,11 @@ const Cinemas = () => {
             </span>
           </div>
           {/* Card 12 */}
-          <div className="w-[44vh] h-[42vh] mt-5 bg-black/15 p-2 rounded-xl border-[0.5px] border-gray-700 cursor-pointer ">
+          <div className="w-[40vh] h-[41vh] mt-5 bg-black/15 p-2 rounded-xl border-[0.5px] border-gray-700 cursor-pointer ">
             <img
               src="https://tickets.legend.com.kh/CDN/media/entity/get/CinemaGallery/0000000004"
               alt="Legend Local"
-              className="w-[44vh] h-[30vh] rounded-2xl"
+              className="w-[44vh] h-[30vh] rounded-xl"
             />
             <h2 className="text-white font-sans font-light mt-2">
               Legend Toul Kork
@@ -238,7 +238,7 @@ const Cinemas = () => {
         </div>
       </div>
 
-      <footer className="mt-[-30px]">
+      <footer className="mt-[-60px]">
         <Footer />
       </footer>
     </>

@@ -19,7 +19,7 @@ const Offers = () => {
           />
         </div>
       </div>
-      <span className="w-[140vh] border-1 border-gray-700 rounded-xl flex m-auto brightness-100 justify-center mt-[-68vh]">
+      <span className="w-[130vh] border-1 border-gray-700 rounded-xl flex m-auto brightness-100 justify-center mt-[-68vh]">
         <img
           src="https://coolbeans.sgp1.digitaloceanspaces.com/legend-cinema-prod/0cdee12f-6a3f-4ae7-bd8f-354771668632.jpeg"
           alt="Promotion Banner"
@@ -28,20 +28,20 @@ const Offers = () => {
       </span>
 
       {/* Legend Cinema local */}
-      <div className="flex -scale-z-50 mt-6 items-center h-[50rem] justify-center stroke-1 saturate-50  min-h-screen br bg-black sticky  bg-fixed ">
-        <div className="absolute inset-60 bg-[radial-gradient(circle_at_center,_#ff0000,_#000000)] h-[80%] blur-[190px]">
+      <div className="flex -scale-z-50 mt-6 items-center h-[40rem] justify-center stroke-1 saturate-50  min-h-screen br bg-black sticky  bg-fixed ">
+        <div className="absolute inset-60 bg-[radial-gradient(circle_at_center,_#ff0000,_#000000)] h-[50%] blur-[190px]">
           <div className=" h-[100%] bg-black/50 z-20 backdrop:blur-sm"></div>
         </div>
       </div>
-      <div className="  w-[1050px] m-auto ml-[240px]  absolute top-[92vh]">
+      <div className="  w-[950px] m-auto ml-[290px]  absolute top-[92vh]">
         <h3 className="text-white ml-1  text-2xl font-semibold font:Poppins">
           Promotions:
         </h3>
 
         {/* Card of local */}
         {/* Card1 */}
-        <div className="grid grid-cols-3 mt-10 gap-3">
-          <div className="w-[44vh] h-[33vh] bg-black/15 p-2 rounded-xl border-[0.5px] border-gray-700 cursor-pointer ">
+        <div className="grid grid-cols-3 mt-10 gap-2">
+          <div className="w-[41vh] h-[33vh] bg-black/15 p-2 rounded-xl border-[0.5px] border-gray-700 cursor-pointer ">
             <img
               src="https://coolbeans.sgp1.digitaloceanspaces.com/legend-cinema-prod/f9f7cf67-20fc-45e6-9e38-d24aecee9fa1.jpeg"
               alt="Promotions"
@@ -53,7 +53,7 @@ const Offers = () => {
           </div>
 
           {/* Card 2 */}
-          <div className="w-[44vh] h-[33vh] bg-black/15 p-2 rounded-xl border-[0.5px] border-gray-700 cursor-pointer ">
+          <div className="w-[41vh] h-[33vh] bg-black/15 p-2 rounded-xl border-[0.5px] border-gray-700 cursor-pointer ">
             <img
               src="https://coolbeans.sgp1.digitaloceanspaces.com/legend-cinema-prod/189fa652-6846-40a4-a7d9-03df5bbb1275.jpeg"
               alt="Promotion"
@@ -64,7 +64,7 @@ const Offers = () => {
             </h2>
           </div>
           {/* Card 3 */}
-          <div className="w-[44vh] h-[33vh] bg-black/15 p-2 rounded-xl border-[0.5px] border-gray-700 cursor-pointer ">
+          <div className="w-[41vh] h-[33vh] bg-black/15 p-2 rounded-xl border-[0.5px] border-gray-700 cursor-pointer ">
             <img
               src="https://coolbeans.sgp1.digitaloceanspaces.com/legend-cinema-prod/24f5e3a1-3c99-4544-90d5-0f77be765276.jpeg"
               alt="Promotions"
@@ -76,7 +76,7 @@ const Offers = () => {
             </h2>
           </div>
           {/* Card4 */}
-          <div className="w-[44vh] h-[33vh] mt-5 bg-black/15 p-2 rounded-xl border-[0.5px] border-gray-700 cursor-pointer ">
+          <div className="w-[41vh] h-[33vh] mt-5 bg-black/15 p-2 rounded-xl border-[0.5px] border-gray-700 cursor-pointer ">
             <img
               src="https://coolbeans.sgp1.digitaloceanspaces.com/legend-cinema-prod/5bb25e91-4c54-4dc4-acbb-a1c6f7474c9d.jpeg"
               alt="Promotions"
@@ -88,7 +88,7 @@ const Offers = () => {
           </div>
 
           {/* Card 5 */}
-          <div className="w-[44vh] h-[33vh] mt-5 bg-black/15 p-2 rounded-xl border-[0.5px] border-gray-700 cursor-pointer ">
+          <div className="w-[41vh] h-[33vh] mt-5 bg-black/15 p-2 rounded-xl border-[0.5px] border-gray-700 cursor-pointer ">
             <img
               src="https://coolbeans.sgp1.digitaloceanspaces.com/legend-cinema-prod/42704358-5548-4d22-aab5-023fe818d6a7.jpeg"
               alt="Promotions"
@@ -102,7 +102,7 @@ const Offers = () => {
         </div>
       </div>
 
-      <footer className="mt-[-30px]">
+      <footer className="mt-[-50px]">
         <Footer />
       </footer>
     </>

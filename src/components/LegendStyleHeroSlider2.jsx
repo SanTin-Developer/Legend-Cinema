@@ -82,7 +82,7 @@ export default function LegendStyleHeroSlider2({ slides = DEFAULT_SLIDES }) {
   };
 
   return (
-    <section className="w-[70%] z-0 relative mt-[-31rem] m-auto ">
+    <section className="w-[64%] z-0 relative mt-[-31rem] m-auto ">
       <Swiper
         // Keep a ref so we can pause/resume on hover
         ref={swiperRef}

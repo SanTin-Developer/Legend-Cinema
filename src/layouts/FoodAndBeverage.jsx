@@ -21,7 +21,7 @@ const FoodAndBeverage = () => (
       </div>
     </div>
 
-    <span className="w-[140vh] h-[60vh] border-1 border-gray-700 rounded-xl flex m-auto brightness-100 justify-center mt-[-68vh]">
+    <span className="w-[130vh] h-[60vh] border-1 border-gray-700 rounded-xl flex m-auto brightness-100 justify-center mt-[-68vh]">
       <img
         src="https://coolbeans.sgp1.digitaloceanspaces.com/legend-cinema-prod/40de4c72-907a-4120-b70a-cb475690f888.jpeg"
         alt="Promotion Banner"
@@ -31,19 +31,19 @@ const FoodAndBeverage = () => (
 
     {/* Legend Cinema local */}
     <div className="flex -scale-z-50 mt-6 items-center h-[50rem] justify-center stroke-1 saturate-50  min-h-screen br bg-black sticky  bg-fixed ">
-      <div className="absolute inset-60 bg-[radial-gradient(circle_at_center,_#ff0000,_#000000)] h-[80%] blur-[190px]">
+      <div className="absolute inset-60 bg-[radial-gradient(circle_at_center,_#ff0000,_#000000)] h-[50%] blur-[190px]">
         <div className=" h-[100%] bg-black/50 z-20 backdrop:blur-sm"></div>
       </div>
     </div>
-    <div className="  w-[1050px] m-auto ml-[240px]  absolute top-[92vh]">
+    <div className="  w-[950px] m-auto ml-[270px]  absolute top-[92vh]">
       <h3 className="text-white ml-1  text-2xl font-semibold font:Poppins">
         Choose Cinema
       </h3>
 
       {/* Card of local */}
       {/* Card1 */}
-      <div className="grid grid-cols-2 mt-10 gap-3">
-        <div className="w-[68vh] h-[10vh] bg-black/15 p-1 flex rounded-md border-[0.5px] border-gray-700 cursor-pointer ">
+      <div className="grid grid-cols-2 mt-10 gap-15">
+        <div className="w-[64vh] h-[10vh] bg-black/15 p-1 flex rounded-md border-[0.5px] border-gray-700 cursor-pointer ">
           <img
             src="https://tickets.legend.com.kh/CDN/media/entity/get/CinemaGallery/0000000013"
             alt="choose local"
@@ -56,7 +56,7 @@ const FoodAndBeverage = () => (
         </div>
 
         {/* Card 2 */}
-        <div className="w-[68vh] h-[10vh] bg-black/15 p-1 flex rounded-md border-[0.5px] border-gray-700 cursor-pointer ">
+        <div className="w-[64vh] h-[10vh] bg-black/15 p-1 flex rounded-md border-[0.5px] border-gray-700 cursor-pointer ">
           <img
             src="https://tickets.legend.com.kh/CDN/media/entity/get/CinemaGallery/0000000012"
             alt="choose local"
@@ -69,7 +69,7 @@ const FoodAndBeverage = () => (
         </div>
 
         {/* Card 3 */}
-        <div className="w-[68vh] h-[10vh] bg-black/15 p-1 flex rounded-md border-[0.5px] border-gray-700 cursor-pointer ">
+        <div className="w-[64vh] h-[10vh] mt-[-5vh] bg-black/15 p-1 flex rounded-md border-[0.5px] border-gray-700 cursor-pointer ">
           <img
             src="https://tickets.legend.com.kh/CDN/media/entity/get/CinemaGallery/0000000014"
             alt="choose local"
@@ -82,7 +82,7 @@ const FoodAndBeverage = () => (
         </div>
 
         {/* Card4 */}
-        <div className="w-[68vh] h-[10vh] bg-black/15 p-1 flex rounded-md border-[0.5px] border-gray-700 cursor-pointer ">
+        <div className="w-[64vh] h-[10vh] mt-[-5vh] bg-black/15 p-1 flex rounded-md border-[0.5px] border-gray-700 cursor-pointer ">
           <img
             src="https://tickets.legend.com.kh/CDN/media/entity/get/CinemaGallery/0000000009"
             alt="choose local"
@@ -95,7 +95,7 @@ const FoodAndBeverage = () => (
         </div>
 
         {/* Card 5 */}
-        <div className="w-[68vh] h-[10vh] bg-black/15 p-1 flex rounded-md border-[0.5px] border-gray-700 cursor-pointer ">
+        <div className="w-[64vh] h-[10vh]  mt-[-5vh] bg-black/15 p-1 flex rounded-md border-[0.5px] border-gray-700 cursor-pointer ">
           <img
             src="https://tickets.legend.com.kh/CDN/media/entity/get/CinemaGallery/0000000006"
             alt="choose local"
@@ -108,7 +108,7 @@ const FoodAndBeverage = () => (
         </div>
 
         {/* Card 6 */}
-        <div className="w-[68vh] h-[10vh] bg-black/15 p-1 flex rounded-md border-[0.5px] border-gray-700 cursor-pointer ">
+        <div className="w-[64vh] h-[10vh]  mt-[-5vh] bg-black/15 p-1 flex rounded-md border-[0.5px] border-gray-700 cursor-pointer ">
           <img
             src="https://tickets.legend.com.kh/CDN/media/entity/get/CinemaGallery/0000000008"
             alt="choose local"
@@ -121,7 +121,7 @@ const FoodAndBeverage = () => (
         </div>
 
         {/* Card 7 */}
-        <div className="w-[68vh] h-[10vh] bg-black/15 p-1 flex rounded-md border-[0.5px] border-gray-700 cursor-pointer ">
+        <div className="w-[64vh] h-[10vh]  mt-[-5vh] bg-black/15 p-1 flex rounded-md border-[0.5px] border-gray-700 cursor-pointer ">
           <img
             src="https://tickets.legend.com.kh/CDN/media/entity/get/CinemaGallery/0000000007"
             alt="choose local"
@@ -134,7 +134,7 @@ const FoodAndBeverage = () => (
         </div>
 
         {/* Card8 */}
-        <div className="w-[68vh] h-[10vh] bg-black/15 p-1 flex rounded-md border-[0.5px] border-gray-700 cursor-pointer ">
+        <div className="w-[64vh] h-[10vh]  mt-[-5vh] bg-black/15 p-1 flex rounded-md border-[0.5px] border-gray-700 cursor-pointer ">
           <img
             src="https://tickets.legend.com.kh/CDN/media/entity/get/CinemaGallery/0000000011"
             alt="choose local"
@@ -147,7 +147,7 @@ const FoodAndBeverage = () => (
         </div>
 
         {/* Card9 */}
-        <div className="w-[68vh] h-[10vh] bg-black/15 p-1 flex rounded-md border-[0.5px] border-gray-700 cursor-pointer ">
+        <div className="w-[64vh] h-[10vh]  mt-[-5vh] bg-black/15 p-1 flex rounded-md border-[0.5px] border-gray-700 cursor-pointer ">
           <img
             src="https://tickets.legend.com.kh/CDN/media/entity/get/CinemaGallery/0000000005"
             alt="choose local"
@@ -160,7 +160,7 @@ const FoodAndBeverage = () => (
         </div>
 
         {/* Card 10 */}
-        <div className="w-[68vh] h-[10vh] bg-black/15 p-1 flex rounded-md border-[0.5px] border-gray-700 cursor-pointer ">
+        <div className="w-[64vh] h-[10vh]  mt-[-5vh] bg-black/15 p-1 flex rounded-md border-[0.5px] border-gray-700 cursor-pointer ">
           <img
             src="https://tickets.legend.com.kh/CDN/media/entity/get/CinemaGallery/0000000010"
             alt="choose local"
@@ -173,7 +173,7 @@ const FoodAndBeverage = () => (
         </div>
 
         {/* Card 11 */}
-        <div className="w-[68vh] h-[10vh] bg-black/15 p-1 flex rounded-md border-[0.5px] border-gray-700 cursor-pointer ">
+        <div className="w-[64vh] h-[10vh]  mt-[-5vh] bg-black/15 p-1 flex rounded-md border-[0.5px] border-gray-700 cursor-pointer ">
           <img
             src="https://tickets.legend.com.kh/CDN/media/entity/get/CinemaGallery/0000000001"
             alt="choose local"
@@ -186,7 +186,7 @@ const FoodAndBeverage = () => (
         </div>
 
         {/* Card 12 */}
-        <div className="w-[68vh] h-[10vh] bg-black/15 p-1 flex rounded-md border-[0.5px] border-gray-700 cursor-pointer ">
+        <div className="w-[64vh] h-[10vh]  mt-[-5vh] bg-black/15 p-1 flex rounded-md border-[0.5px] border-gray-700 cursor-pointer ">
           <img
             src="https://tickets.legend.com.kh/CDN/media/entity/get/CinemaGallery/0000000004"
             alt="choose local"
@@ -200,7 +200,7 @@ const FoodAndBeverage = () => (
       </div>
     </div>
 
-    <footer className="mt-[-30px]">
+    <footer className="mt-[-50px]">
       <Footer />
     </footer>
   </>

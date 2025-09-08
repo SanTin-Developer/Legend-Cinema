@@ -1,39 +1,40 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
-import { Home, Info, Settings, Phone } from "lucide-react"; // icons
+import Header from "../../layouts/Header";
+import LegendStyleHeroSlider from "../LegendStyleHeroSlider";
+import LegendStyleHeroSlider2 from "../LegendStyleHeroSlider2";
+import MenuDate from "../UI/MenuDate";
+import MenuDateSlider2 from "../UI/MeuDateSlider2";
+import { Link } from "react-router-dom";
+import MovieComing from "../sections./MovieComing";
+import Footer from "../../layouts/Footer";
+import HomeFooterSlide from "../UI/HomeFooterSlide";
 
-const MenuBar = () => {
-  const menuItems = [
-    { to: "/", label: "Home", icon: <Home size={24} /> },
-    { to: "/about", label: "About", icon: <Info size={24} /> },
-    { to: "/services", label: "Services", icon: <Settings size={24} /> },
-    { to: "/contact", label: "Contact", icon: <Phone size={24} /> },
-  ];
-
+const ComingPage = () => {
   return (
-    <div className="flex space-x-6 p-4 bg-gray-900 text-white">
-      {menuItems.map((item) => (
-        <NavLink
-          key={item.to}
-          to={item.to}
-          className="flex flex-col items-center space-y-1"
-        >
-          {({ isActive }) => (
-            <>
-              <span
-                className={`transition ${
-                  isActive ? "text-red-500" : "text-gray-400 hover:text-white"
-                }`}
-              >
-                {item.icon}
-              </span>
-              <span className="text-sm">{item.label}</span>
-            </>
-          )}
-        </NavLink>
-      ))}
-    </div>
+    <>
+      <Header />
+      <LegendStyleHeroSlider />
+      <LegendStyleHeroSlider2 />
+      <div className="  items-center h-[140rem] justify-center  saturate-50 brightness-50 mt-16 min-h-screen  bg-black sticky  ">
+        <div className="bg-[radial-gradient(circle_at_center,_#ff0000,_#000000)] h-[100%] blur-2xl "></div>
+      </div>
+      <div className=" mt-[-135rem] m-auto justify-center ">
+        <div className="z-[calc(var(--index)+1000)] relative  flex max-w-8xl px-60 gap-2  ">
+          <Link to="/" className="cursor-pointer">
+            <h2 className="text-gray-400 text-4xl font-sans">Now Showing</h2>
+          </Link>
+          <div className="w-0.5 bg-gray-600"></div>
+          <Link to="/coming" className="cursor-pointer">
+            <h2 className="text-white text-4xl font-sans">Coming Soon</h2>
+          </Link>
+        </div>
+        <MenuDateSlider2 />
+        <MovieComing />
+        <HomeFooterSlide />
+      </div>
+      <Footer />
+    </>
   );
 };
 
-export default MenuBar;
+export default ComingPage;
